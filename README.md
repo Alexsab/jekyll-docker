@@ -1,4 +1,15 @@
-# Install Jekyll Docker
+# Jekyll on Docker
+
+**copy-paste and use**
+
+to serve site run
+```bash
+docker-compose up -d
+```
+
+If you want to instal yourself read manual below 👇
+
+## Install Jekyll Docker
 [manual here](https://dev.to/stankukucka/install-jekyll-on-your-mac-with-docker-compose-file-everything-you-need-to-get-going-2alf)
 
 ```bash
@@ -37,3 +48,25 @@ exit
 
 docker-compose up
 ```
+
+## How to use
+
+after edit config file you have to run
+```bash
+docker-compose run jekyll /bin/bash
+```
+
+after enter into console, run
+
+```bash
+bundle update
+
+exit
+```
+
+to serve site run
+```bash
+docker-compose up -d
+```
+
+then open browser [http://0.0.0.0:4000/](http://0.0.0.0:4000/)
