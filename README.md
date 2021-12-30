@@ -6,7 +6,9 @@ mkdir jekyll-website
 cd jekyll-website
 touch docker-compose.yml
 ```
+
 copy code below in your `docker-compose.yml` file
+
 ```yml
 version: "3"
 
@@ -21,7 +23,15 @@ services:
 ```
 
 ```bash
+docker-compose run jekyll /bin/bash
+
 jekyll new . --force
+```
+
+config your Jekyll files, then
+
+```yml
+bundle update
 
 exit
 
