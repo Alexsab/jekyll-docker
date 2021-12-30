@@ -1,4 +1,4 @@
-# Install Jekyll Docker 
+# Install Jekyll Docker
 [manual here](https://dev.to/stankukucka/install-jekyll-on-your-mac-with-docker-compose-file-everything-you-need-to-get-going-2alf)
 
 ```bash
